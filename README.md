@@ -32,77 +32,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global Contract Lifecycle Management (CLM) and contract AI market is valued at approximately **$1.8B to $2.1B** and projected to grow at a **~12% CAGR** to surpass **$5B+ by the mid-2030s**. The sector remains **moderately fragmented**—with over 150+ regional and specialized providers alongside a low top-5 vendor concentration (~28–35%)—though aggressive consolidation and mega-rounds from AI leaders continue to reshape enterprise adoption.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **Icertis Vera Copilot**
-
-  **Enterprise contract intelligence with agentic execution**. Vera Copilot is a conversational control plane that understands query intent, searches the contract repository in natural language, summarizes documents, extracts clauses, and invokes AI agents for contract creation, review, and reconciliation . **Vera Operate** turns contract commitments into fulfilled actions—tracking obligations, surfacing renewals, and triggering downstream business events . **Vera Engage** enables agent-driven drafting and surgical redlining with playbooks; **Vera Analytics** surfaces risk exposure and revenue leakage across the portfolio . Built on one of the largest contract data lakes, trusted by one-third of the Fortune 100, deeply embedded in SAP, Microsoft, and Salesforce . **Pricing**: Quote-only; enterprise contracts. **Free tier**: None. **Best for**: large enterprises wanting AI-native contract execution integrated with ERP and CRM—**trade-off**: six-figure enterprise commitment; implementation complexity.
-
-
-
-- **Ironclad AI**
-
-  **CLM with AI-assisted workflow and obligation tracking**. Partnered with Harvey for contract intelligence . **Pricing**: Quote-only; enterprise contracts. **Free tier**: None. **Best for**: legal teams wanting deep workflow customization and approval chains—**trade-off**: weak native intelligence compared to Harvey; partnership dependency.
-
-
-
-- **Harvey AI**
-
-  **Legal AI platform** for drafting, analysis, and research. Strong on contract analysis and drafting but lacks an execution layer (approvals, signatures, tracking) . **Pricing**: Quote-only. **Free tier**: None. **Best for**: law firms and legal teams wanting deep contract reasoning—**trade-off**: no execution layer; partnership with Ironclad required for full CLM.
-
-
-
-- **Robin AI**
-
-  **AI contract review and negotiation** with a proprietary legal model. **Pricing**: Quote-only. **Free tier**: None. **Best for**: teams wanting AI-assisted redlining with legal-grade accuracy.
-
-
-
-- **Spellbook**
-
-  **AI contract drafting and review** inside Microsoft Word. **Pricing**: Quote-only. **Free tier**: Trial available. **Best for**: lawyers wanting AI assistance without leaving Word—**trade-off**: drafting-focused; not a full CLM.
-
-
-
-- **Casetext CoCounsel**
-
-  **AI legal research and document review** (acquired by Thomson Reuters). **Pricing**: Quote-only. **Free tier**: None. **Best for**: legal research and contract review workflows.
-
-
-
-- **ContractPodAi Leah**
-
-  **AI-powered CLM** with legal front door and obligation management. **Pricing**: Quote-only. **Free tier**: None. **Best for**: enterprises wanting an AI-native CLM with legal intake.
-
-
-
-- **Luminance**
-
-  **AI contract analysis** with pattern recognition across large portfolios. **Pricing**: Quote-only. **Free tier**: None. **Best for**: due diligence and portfolio-wide contract analysis.
-
-
-
-- **Evisort AI**
-
-  **AI contract intelligence** with obligation tracking and analytics. **Pricing**: Quote-only. **Free tier**: None. **Best for**: teams wanting post-signature visibility into obligations and renewals.
-
-
-
-- **Lexion AI**
-
-  **AI contract management** for mid-market teams. **Pricing**: Quote-only. **Free tier**: None. **Best for**: mid-market organizations wanting accessible AI contract management.
+| Platform | Company Scale (Valuation / Revenue) | Pricing | Free Tier / Trial Limits | Description & Best For | Trade-offs |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Harvey AI** | **$15.5B valuation** (~$400M+ ARR) | ~$1,000–$1,200 / user / month (min. 20–25 seats; entry ~$288K–$360K / year) | No free tier; demo / sales-assisted PoC only upon qualification | Generative AI platform for deep contract reasoning, clause drafting, and portfolio search; best for top law firms and legal teams | No native execution/CLM layer (approvals, e-sign); requires pairing with tools like Ironclad |
+| **Icertis Vera Copilot** | **$5.0B valuation** (~$300M–$350M ARR) | ~$48,000–$100,000+ / year base subscription (typically $150–$350 / user / month equivalent) | No free tier or public free trial; sales-assisted enterprise demo/PoC only | Enterprise contract intelligence control plane with agentic obligation execution (Vera Operate); deeply embedded in SAP, Microsoft, and Salesforce | Steep six-figure initial commitments; complex implementation and onboarding cycles |
+| **Ironclad AI** | **$3.2B valuation** (~$200M+ ARR) | ~$50,000–$60,000+ / year starting tier (approx. $200–$600 / user / month equivalent) | No free tier or self-serve trial; custom sales-led demo/PoC only | Workflow-first CLM with AI assistance, obligation tracking, and Harvey integration; best for scalable legal ops approval chains | AI reasoning is less native compared to Harvey; dependency on external partnerships |
+| **Casetext CoCounsel** | **$650M acquisition** (Thomson Reuters) | ~$340–$630+ / user / month (Essentials tier; Legal suite upwards of $1,600+ / month) | No permanent free tier; time-limited sales-provisioned evaluation trial upon request | AI legal research, contract review, and document analysis integrated into Westlaw / Practical Law ecosystems | Transitioned into Thomson Reuters enterprise bundles; standalone product no longer available |
+| **ContractPodAi Leah** | **~$250M–$700M valuation** (~$40M–$57M ARR) | ~$50,000–$65,000 / year starting platform fee (unlimited user tier + AI add-on) | No free tier or public trial; sales consultation and custom enterprise demo only | AI-native CLM with intake portal ("Legal Front Door"), automated redlining, and obligation tracking | Substantial first-year setup and workflow configuration investment |
+| **Luminance** | **~$400M valuation** (~$30M ARR, $165M raised) | ~$40,000–$60,000+ / year starting tier (volume/capacity-based document licensing) | No free tier or self-serve trial; request-only corporate demonstration and trial | Proprietary legal LLM specializing in portfolio-wide contract analysis, due diligence, and automated negotiation | Pricing scales quickly with contract repository size; less focused on mid-market self-serve teams |
+| **Spellbook** | **$350M valuation** (~$100M ARR) | ~$50–$350+ / user / month (tailored quote by team seat count & add-on agents) | **7-day free trial** (access to Word add-in drafting, redlining, and playbooks; no credit card required) | AI contract drafting, review, and playbook benchmarking directly inside Microsoft Word | Primarily focused on drafting and pre-signature review; not a comprehensive post-signature CLM |
+| **Evisort AI** | **$311M acquisition** (Workday) | ~$30,000–$60,000 / year starting tier (covering 500–2,000 contracts) | No free tier or self-serve trial; demo and enterprise proof-of-concept through sales | AI contract intelligence and post-signature obligation tracking with analytics; integrated into Workday CLM | Primarily analytics- and extraction-driven; requires Workday ecosystem alignment post-acquisition |
+| **Lexion AI** | **$165M acquisition** (DocuSign) | ~$15,000–$25,000 / year starting tier (approx. $1,500–$2,100 / month equivalent) | No free tier or self-serve trial; sales demo and guided evaluation only | Lightweight, accessible AI contract repository and workflow management for mid-market teams | Now part of DocuSign; advanced enterprise features require higher DocuSign tiers |
+| **Robin AI** | **~$70M+ raised / ~$10M ARR** | Free plan available; paid tiers quote-based (custom volume/seat pricing) | **Free Forever Plan** (capped at 1 user and ~10 AI messages/queries per day) | AI contract review and redlining assistant powered by custom legal models; best for rapid clause checks | Free tier limited to basic exploratory queries; advanced playbook automation requires paid plans |
 
 
 
